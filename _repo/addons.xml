@@ -17,7 +17,7 @@
     </extension>
 </addon>
 
-    <addon id="script.hello.world" name="Hello World" version="0.1.0" provider-name="eine-fake">
+    <addon id="script.hello.world" name="Hello World" version="0.1.1" provider-name="eine-fake">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
