@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <addon id="script.hello.world" name="Hello World" version="0.1.1" provider-name="eine-fake">
+    <addon id="script.hello.world" name="Hello World" version="0.1.2" provider-name="eine-fake">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="Hello World">
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>image video</provides>
+	</extension>
+        <extension point="xbmc.addon.repository" name="Ed's Shit">
             <info compressed="false">https://raw.githubusercontent.com/eine-fake/ms-ez/master/_repo/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/eine-fake/ms-ez/master/_repo/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/eine-fake/ms-ez/master/_repo/</datadir>
